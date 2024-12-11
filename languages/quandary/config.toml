@@ -1,6 +1,6 @@
 name = "quandary"
 grammar = "java"  # Using Java's grammar as base
-path_suffixes = ["q", "qet", "calc", "arith"]
+path_suffixes = ["q", "qet"]
 line_comments = ["/* */"]
 brackets = [
   { start = "(", end = ")" },
