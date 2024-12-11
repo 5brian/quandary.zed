@@ -1,0 +1,11 @@
+name = "quandary"
+grammar = "java"  # Using Java's grammar as base
+path_suffixes = ["q", "qet", "calc", "arith"]
+line_comments = ["/* */"]
+brackets = [
+  { start = "(", end = ")" },
+  { start = "[", end = "]" },
+  { start = "{", end = "}" }
+]
+tab_size = 2
+word_characters = ["_"]

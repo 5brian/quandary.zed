@@ -1,0 +1,12 @@
+[extension]
+id = "quandary"
+name = "quandary"
+version = "0.0.1"
+schema_version = 1
+authors = ["Brian Tan <brian.tan88@gmail.com>"]
+description = "Quandary language support for Zed"
+repository = "https://github.com/5brian/quandary.zed"
+
+[grammars.java]
+repository = "https://github.com/tree-sitter/tree-sitter-java"
+commit = "a1bbe92"
